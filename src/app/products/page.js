@@ -1,6 +1,7 @@
 
 async function getData() {
-  const res = await fetch("http://localhost:3000/api/allProducts", {
+  const apiUrl = process.env.API_URL;
+  const res = await fetch(`${apiUrl}/api/allProducts`, {
     cache: "no-store",
   });
   if (!res.ok) return "products not found";

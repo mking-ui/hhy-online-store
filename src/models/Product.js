@@ -1,6 +1,5 @@
 import mongoose, { Schema, model, models } from "mongoose";
 
-mongoose.connect(process.env.MONGODB_URI);
 
 const productsSchema = new Schema({
     title: String,

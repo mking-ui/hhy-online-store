@@ -1,6 +1,8 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "bootstrap-icons";
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #b3c9fb;
 }

@@ -1,3 +1,4 @@
+
 import getData from "@/newControllers/AllNewProducts";
 import Link from "next/link";
 import SearchBox from "./SearchBox";
