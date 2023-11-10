@@ -9,7 +9,7 @@ async function getData() {
 }
 
 export default async function Products() {
-  // const data = await getData();
+ 
 
   const products = await getData();
 

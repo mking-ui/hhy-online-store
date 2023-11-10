@@ -1,7 +1,3 @@
-/*@tailwind base;
-@tailwind components;
-@tailwind utilities;*/
-
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "bootstrap-icons";
 
@@ -9,13 +5,7 @@ body {
   background-color: #b3c9fb;
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
 
-/**
-* Desktop Navigation 
-*/
 .navbar {
   padding: 0;
 }
@@ -64,18 +54,17 @@ body {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #4154f1;
 }
 
-*/
-  /*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
+
 
 .hero {
   background-size: cover;
 }
+
 .hero h1 {
   font-size: 48px;
   font-weight: 700;
@@ -140,9 +129,7 @@ body {
   }
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+
 .about .content h2 {
   margin: 0;
   font-size: 28px;
@@ -181,9 +168,11 @@ body {
 .about .content p {
   color: #013289;
 }
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
 #about .text-border {
   border-left-style: solid;
   border-color: rgba(130, 127, 127, 0.82);
@@ -217,59 +206,49 @@ body {
   transform: translateX(5px);
 }
 
-/*--------------------------------------------------------------
-# Not Found Sections
---------------------------------------------------------------*/
-#c-cart h3{
+#c-cart h3 {
   font-size: 38px;
   font-weight: 700;
   color: #012970;
 }
-#c-cart h4{
-  font-size: 28px;
-  color: #012970;
-}
-#c-cart p{
-  font-size: 22px;
-  color: #012970;
-}
-#c-cart .c-link{
+
+#c-cart h4 {
   font-size: 28px;
   color: #012970;
 }
 
-/*--------------------------------------------------------------
-# Not Found Sections
---------------------------------------------------------------*/
-.not-found h3{
+#c-cart p {
+  font-size: 22px;
+  color: #012970;
+}
+
+#c-cart .c-link {
+  font-size: 28px;
+  color: #012970;
+}
+
+.not-found h3 {
   font-size: 38px;
   font-weight: 700;
   color: #012970;
 }
-.not-found h4{
+
+.not-found h4 {
   font-size: 28px;
   color: #012970;
 }
-.not-found p{
+
+.not-found p {
   font-size: 22px;
   color: #012970;
 }
-.not-found .c-link{
+
+.not-found .c-link {
   font-size: 28px;
   color: #012970;
 }
 
 
-
-
-
-
-
-
-
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 
 .c-search {
   border: none;
@@ -280,6 +259,7 @@ body {
 .section-title {
   padding-bottom: 20px;
 }
+
 .section-title p {
   margin: 0;
   margin: 0;
@@ -311,7 +291,7 @@ body {
   align-items: center;
 }
 
-/* Product Card Section*/
+
 #product .card {
   cursor: pointer;
   box-shadow: 0px 0 30px rgba(38, 43, 48, 0.288);
@@ -323,13 +303,16 @@ body {
   height: 20vw;
   object-fit: cover;
 }
+
 @media (max-width: 768px) {
   #product h4 {
     font-size: 18px;
   }
+
   .section-title h2 {
     margin-top: 60px;
   }
+
   .section-title h2::before {
     margin-top: 60px;
   }
@@ -352,6 +335,7 @@ body {
   color: white;
   width: 30%;
 }
+
 #detail .btncart1:hover {
   background-color: #013389a2;
   color: white;
@@ -367,6 +351,7 @@ body {
   font-weight: 700;
   color: #012970;
 }
+
 #detail h2 {
   font-size: 28px;
   font-weight: 700;
@@ -376,12 +361,15 @@ body {
 #detail h3 {
   color: #012970;
 }
+
 #detail p {
   color: #012970;
 }
+
 #detail small {
   color: #012970;
 }
+
 #detail details {
   color: #012970;
 }
@@ -397,16 +385,19 @@ body {
   color: white;
   opacity: 0.8;
 }
+
 #product h4:hover {
   color: #013389a2;
   cursor: pointer;
 }
+
 #product h4 {
   font-size: 20px;
   font-weight: 500;
   color: #013289;
   font-family: "Poppins", sans-serif;
 }
+
 #product p {
   font-size: 16px;
   font-weight: 300;
@@ -414,9 +405,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+
 .footer {
   padding: 0 0 30px 0;
   font-size: 14px;
@@ -532,6 +521,7 @@ body {
   line-height: 26px;
   color: #012970;
 }
+
 .footer .footer-top .footer-contact strong {
   line-height: 20px;
   color: #012970;
@@ -549,6 +539,7 @@ body {
   font-size: 13px;
   color: #012970;
 }
+
 .footer .credits a {
   color: #4154f1;
 }
