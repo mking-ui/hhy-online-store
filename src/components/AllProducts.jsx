@@ -3,7 +3,7 @@ import SearchBox from "./SearchBox";
 import getAllData from "@/newControllers/AllProducts";
 
 export default async function AllProduct() {
-  //const prods = await getAllData();
+  const prods = await getAllData();
 
   return (
     <section id="product">

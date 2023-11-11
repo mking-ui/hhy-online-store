@@ -4,7 +4,7 @@ import Link from "next/link";
 import SearchBox from "./SearchBox";
 
 export default async function NewProduct() {
-  //const prods = await getData();
+  const prods = await getData();
   return (
     <section id="product">
       <div className="container p-4" data-aos="fade-up" data-aos-delay="200">
