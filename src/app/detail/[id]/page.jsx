@@ -2,7 +2,7 @@ import getSingleNewproduct from "@/newControllers/SingleNewProduct";
 import Link from "next/link";
 
 export default async function page({ params: { id } }) {
-  const singleNewPro = await getSingleNewproduct(id);
+ // const singleNewPro = await getSingleNewproduct(id);
   //console.log(singleNewPro)
   return (
     <>
