@@ -1,12 +1,11 @@
-"use client"
+"use client";
 import { useState } from "react";
 
-export default function SearchBox({setResults}) {
+export default function SearchBox({ setResults }) {
   const [input, setInput] = useState("");
 
-  
   const fetchData = (value) => {
-    fetch("http://localhost:3000/api/allProducts", {
+    fetch("/api/allProducts", {
       cache: "no-store",
     }).then((response) =>
       response.json().then((json) => {
@@ -15,14 +14,14 @@ export default function SearchBox({setResults}) {
             value &&
             user &&
             user.title &&
-            user.title.toLowerCase().includes(value) 
+            user.title.toLowerCase().includes(value)
           );
         });
         setResults(results);
       })
     );
   };
-   
+
   const handleChange = (value) => {
     setInput(value);
     fetchData(value);
@@ -40,7 +39,6 @@ export default function SearchBox({setResults}) {
                 value={input}
                 onChange={(e) => handleChange(e.target.value)}
               />
-            
             </div>
           </div>
         </div>
