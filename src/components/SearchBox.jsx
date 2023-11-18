@@ -4,8 +4,7 @@ import { useState } from "react";
 export default function SearchBox({setResults}) {
   const [input, setInput] = useState("");
 
-  {
-    /**
+  
   const fetchData = (value) => {
     fetch("http://localhost:3000/api/allProducts", {
       cache: "no-store",
@@ -23,8 +22,7 @@ export default function SearchBox({setResults}) {
       })
     );
   };
-   */
-  }
+   
   const handleChange = (value) => {
     setInput(value);
     fetchData(value);

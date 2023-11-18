@@ -13,7 +13,7 @@ export default function Welcome() {
       </section>
 
       <div className="container p-4 pb-lg-0 ">
-        <div className="content row">
+        <div className="content row justify-content-center align-items-center">
           <div className="col-md-6 left">
             <h3 className="text-justify opacity-75 text-start text-uppercase">
               Welcome to HHY Online Store
