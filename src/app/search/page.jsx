@@ -7,8 +7,8 @@ export default function Search() {
   const [results, setResults] = useState([]);
   return (
     <>
-      <SearchBox setResults={setResults} />
-      <SearchResult results={results} />
+      {/**  <SearchBox setResults={setResults} />
+      <SearchResult results={results} />*/}
     </>
   );
 }

@@ -2,8 +2,8 @@ import getSingleNewproduct from "@/newControllers/SingleNewProduct";
 import Link from "next/link";
 
 export default async function page({ params: { id } }) {
-  const singleNewPro = await getSingleNewproduct(id);
-  console.log(singleNewPro);
+  //const singleNewPro = await getSingleNewproduct(id);
+  //console.log(singleNewPro);
   return (
     <>
       <div className="detail py-0 py-md-2" id="detail">
