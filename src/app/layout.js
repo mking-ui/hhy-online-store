@@ -17,6 +17,9 @@ import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
+    import("lightbox2/dist/js/lightbox-plus-jquery.min.js");
+  })
+  useEffect(() => {
     Aos.init({
       duration: 800,
       once: false,

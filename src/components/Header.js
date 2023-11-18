@@ -2,22 +2,22 @@ export default function Header() {
   return (
     <>
       <nav
-        className=" navbar navbar-expand-md shadow-sm py-2"
+        className=" navbar navbar-expand-md shadow-sm pt-1"
         data-aos="fade-down"
         data-aos-delay="5000"
       >
         <div className="container">
-          <a href="/" className="navbar-brand logo">
+          <a href="/" className="navbar-brand logo ">
             <img
               className="logo rounded-2 mx-1"
-              src="hhysuperstore.jpg"
-              width={30}
-              height={30}
+              src="hhysuperstore.png"
+              width={35}
+              height={35}
             />
             HHY Online Store
           </a>
           <button
-            className="navbar-toggler shadow-none"
+            className="navbar-toggler border-0 text-light shadow-none"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#main-nav"
@@ -35,34 +35,35 @@ export default function Header() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="/" className="nav-link">
-                 Home
+                  <i className="bi bi-house-fill me-1"></i>
+                   Home
                 </a>
               </li>
               <li className="nav-item">
                 <a href="/about" className="nav-link">
-                  About
+                  <i className="bi bi-slack me-1"></i> About
                 </a>
               </li>
 
               <li className="nav-item">
                 <a href="/allProducts" className="nav-link">
-                  All Products
+                  <i className="bi bi-grid-fill me-1"></i>  All products
                 </a>
               </li>
 
               <li className="nav-item">
                 <a href="/categories" className="nav-link">
-                  Categories
+                  <i className="bi bi-sort-alpha-down me-1"></i> Categories
                 </a>
               </li>
               <li className="nav-item">
                 <a href="/accounts" className="nav-link">
-                  Accounts
+                  <i className="bi bi-person-fill me-1"></i>  Acount
                 </a>
               </li>
               <li className="nav-item">
                 <a href="/cart" className="nav-link">
-                  Cart
+                  <i className="bi bi-cart-fill me-1"></i>  Cart
                 </a>
               </li>
             </ul>

@@ -5,4 +5,5 @@ export default async function MongoDb() {
     useNewUrlParser: "true",
     useUnifiedTopology: "true",
   });
+
 }

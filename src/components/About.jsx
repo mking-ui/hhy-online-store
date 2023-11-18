@@ -4,23 +4,10 @@ export default function About() {
       id="about"
       className=" shadow-sm py-5 about w-100 vh-50 d-flex flex-column justify-content-center align-items-center"
     >
-      <div className="container" data-aos="fade-up">
+      <div className="container p-4" data-aos="fade-up">
         <div className="row content justify-content-center align-items-center">
-          <div className="row">
-            <h2
-              className=" text-lg-start text-center"
-              data-aos="fade-right"
-              data-aos-delay="200"
-            >
-              HHY Online Store
-            </h2>
-          </div>
-          <div className="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-            <img src="/imgs/slide-4.jpg" className="img-fluid  rounded-2" />
-          </div>
-
           <div
-            className="col-lg-6 pt-4 pt-lg-0 text-border"
+            className="col-12 pt-4 pt-lg-0 text-border"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -29,9 +16,13 @@ export default function About() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Background:
+              About-Us
             </h3>
-            <p className="lead" data-aos="fade-up" data-aos-delay="200">
+            <p
+              className="lead text-justify fs-5"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
               ipsum aliquam et ipsa possimus atque maxime accusamus dolores.
               Quaerat vitae sunt dolores quis blanditiis iure ipsum nam, fugiat
@@ -43,7 +34,7 @@ export default function About() {
               Quaerat vitae sunt dolores quis blanditiis iure ipsum nam, fugiat
               alias et?
             </p>
-            <div></div>
+            
           </div>
         </div>
       </div>

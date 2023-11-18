@@ -1,15 +1,16 @@
-import LandingPage from "@/components/LandingPage";
+
 import About from "@/components/About";
 import NewProduct from "@/components/NewProduct";
+import Welcome from "@/components/Welcome";
 
 export default function Home() {
   return (
     <>
-      <LandingPage />
+      <Welcome />
+
       <About />
-      <div id="AllNewProducts"> <NewProduct />
-      </div>
-     
+      <NewProduct />
+
     </>
   );
 }
